@@ -5,7 +5,9 @@
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
   <ul class="nav__items" id="category_tag_menu">
       <li>
-            📂 <span style="font-family:'-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif';">Total </style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';"> posts</style> 
+            📂 <span style="font-family:'-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif';">Total </style> 
+            <span style="font-family:'Coming Soon';">{{sum}}</style> 
+            <span style="font-family:'Cafe24Oneprettynight';"> posts</style> 
       </li>
       <li>
         <span class="nav__sub-title">etc</span>
