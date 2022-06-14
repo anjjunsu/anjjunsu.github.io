@@ -25,7 +25,7 @@
             <span class="nav__sub-title">Cloud-Computing</span>
                 <ul>
                     {% for category in site.categories %}
-                        {% if category[0] == "CloudComputing" %}
+                        {% if category[0] == "AWS" %}
                             <li><a href="/categories/cloud-computing" class="">AWS({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}
