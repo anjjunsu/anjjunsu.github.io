@@ -22,6 +22,16 @@
               </ul>
         </li>
         <li>
+            <span class="nav__sub-title">Cloud Computing</span>
+                <ul>
+                    {% for category in site.categories %}
+                        {% if category[0] == "Projects" %}
+                            <li><a href="/categories/cloud-computing" class="">AWS({{category[1].size}})</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul> 
+        </li>
+        <li>
           <span class="nav__sub-title">etc</span>
               <ul>
                   {% for category in site.categories %}
