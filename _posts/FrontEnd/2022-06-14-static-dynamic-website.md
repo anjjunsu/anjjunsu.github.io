@@ -1,11 +1,11 @@
 ---
-title:  "Planning PROJECT-ALPHA (WIP)" 
-excerpt: "My first stand-alone personal project"
+title:  "Static vs Dynamic Website (WIP)" 
+excerpt: "Static vs Dynamic Website"
 
 categories:
-  - Projects
+  - FrontEnd
 tags:
-  - [Project]
+  - [Static Website, Dynamic Website]
 
 toc: true
 toc_sticky: true
