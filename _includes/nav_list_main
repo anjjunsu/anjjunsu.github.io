@@ -22,7 +22,7 @@
               </ul>
         </li>
         <li>
-            <span class="nav__sub-title">Cloud Computing</span>
+            <span class="nav__sub-title">Cloud-Computing</span>
                 <ul>
                     {% for category in site.categories %}
                         {% if category[0] == "CloudComputing" %}
@@ -34,11 +34,11 @@
         <li>
           <span class="nav__sub-title">etc</span>
               <ul>
-                  {% for category in site.categories %}
-                      {% if category[0] == "Blog" %}
-                          <li><a href="/categories/blog" class="">Blog Dev({{category[1].size}})</a></li>
-                      {% endif %}
-                  {% endfor %}
+                    {% for category in site.categories %}
+                        {% if category[0] == "Blog" %}
+                            <li><a href="/categories/blog" class="">Blog Dev({{category[1].size}})</a></li>
+                        {% endif %}
+                    {% endfor %}
               </ul>
         </li>
         <li>	
