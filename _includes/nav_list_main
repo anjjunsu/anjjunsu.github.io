@@ -10,7 +10,23 @@
             <span style="font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif">{{sum}}</style> 
             <span style="font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif"> posts</style> 
         </li>
-
+        <li>
+            <span class="nav__sub-title">LOGS</span>
+                <ul>
+                    {% for category in site.categories %}
+                        {% if category[0] == "BackEnd" %}
+                            <li><a href="/categories/back-end" class="">BACK-END({{category[1].size}})</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+                <ul>
+                    {% for category in site.categories %}
+                        {% if category[0] == "FrontEnd" %}
+                            <li><a href="/categories/front-end" class="">FRONT-END({{category[1].size}})</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+        </li>
         <li>
           <span class="nav__sub-title">Projects</span>
               <ul>
