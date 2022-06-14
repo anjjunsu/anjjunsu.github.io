@@ -5,6 +5,7 @@ permalink: categories/projects
 author_profile: true
 sidebar_main: true
 ---
+<!-- if category name includes space, format below as site.categories['a b c'] -->
 
 ***
 
