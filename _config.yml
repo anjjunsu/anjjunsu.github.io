@@ -103,10 +103,10 @@ analytics: # 블로그 접근 경로 확인 코드
 
 # Site Author / 사이드바 소개 부분
 author:
-  name             : "닉네임"
+  name             : "JUNSU AN"
   avatar           : "/assets/images/profile.jpg"
-  bio              : "간단한 글귀"
-  location         : "사는 지역"
+  bio              : "Computer Engineering Student @UBC"
+  location         : "Vancouver, CA"
   
   links:
     - label: "Email"
