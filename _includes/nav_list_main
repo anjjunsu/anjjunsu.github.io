@@ -1,38 +1,41 @@
 {% assign sum = site.posts | size %}
 
 <nav class="nav__list">
-  <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
-  <ul class="nav__items" id="category_tag_menu">
-      <li>
+    <input id="ac-toc" name="accordion-toc" type="checkbox" />
+    <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
+    <ul class="nav__items" id="category_tag_menu">
+        <li>
             📂 
             <span style="font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif">Total </style> 
             <span style="font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif">{{sum}}</style> 
             <span style="font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif"> posts</style> 
-      </li>
+        </li>
 
-      <li>
-        <span class="nav__sub-title">Projects</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Projects" %}
-                        <li><a href="/categories/projects" class="">PROJECT-ALPHA({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Blog" %}
-                        <li><a href="/categories/blog" class="">Blog Dev({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-      </li>
-
-      <li>	
-            <br>      
-            <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fheoni00.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false">
-      </li>
-  </ul>
+        <li>
+          <span class="nav__sub-title">Projects</span>
+              <ul>
+                  {% for category in site.categories %}
+                      {% if category[0] == "Projects" %}
+                          <li><a href="/categories/projects" class="">PROJECT-ALPHA({{category[1].size}})</a></li>
+                      {% endif %}
+                  {% endfor %}
+              </ul>
+        </li>
+        <li>
+          <span class="nav__sub-title">etc</span>
+              <ul>
+                  {% for category in site.categories %}
+                      {% if category[0] == "Blog" %}
+                          <li><a href="/categories/blog" class="">Blog Dev({{category[1].size}})</a></li>
+                      {% endif %}
+                  {% endfor %}
+              </ul>
+        </li>
+  
+        <li>	
+              <br>      
+              <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fheoni00.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false">
+        </li>
+    </ul>
 </nav>
 
