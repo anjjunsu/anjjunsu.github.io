@@ -118,6 +118,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/anjjunsu"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: # link to my page
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"

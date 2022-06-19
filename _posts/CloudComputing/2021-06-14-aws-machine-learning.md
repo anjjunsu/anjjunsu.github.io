@@ -54,6 +54,7 @@ Use cases: Product Demand Planning, Financial Planning, Resource Planning
 
 ## Kendra
 Fully managed document search service powered by ML     
+Document search engine              
 e.g.) Extract answers from within a document (txt, pdf, ppt, word, etc.)        
 Learn from user interactions/feedback to promote preferred results      
 
