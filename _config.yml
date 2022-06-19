@@ -71,12 +71,6 @@ bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
 
-# Social Sharing
-
-# instagram : 0ldcar_  
-# email : chh96077@gmail.com
-# github : heoni00
-
 twitter:
   username               :
 facebook:
@@ -115,6 +109,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/anjjunsu"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/junsu-an"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/anjjunsu"
