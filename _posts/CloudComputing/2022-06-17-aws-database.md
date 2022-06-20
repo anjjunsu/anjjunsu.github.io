@@ -73,21 +73,56 @@ last_modified_at: 2022-06-14
 
 ## Redshift
 - Based on PostgreSQL	
-- OLAP - Onlie Analytical Processing (analytics and data warehousing)
+- *OLAP - Onlie Analytical Processing (analytics and data warehousing)*
 - Load data once a hour, not every second
+- **Columnar** storage of data	
+- Supports SQL interface for queries	
 
+## Amazon EMR (Elastic MapReduce)	
+- EMR helps creating *Hadoop clusters (Big Data)* 
+- Good for data processing, ML, web indexing, big data...	
 
+## Amazon Athena	
+- *Serverless* service to analyze data stored in Amazon S3	
+- Supports SQL language
 
+## Amazon QuickSight	
+- *Serverless, ML-powered* business intelligence service to create interactive dasahboards	
+- Allows business analytics, business insights 	
+- Integrated with RDS, Aurora, Athena, Redshift, S3, ....
 
+## Document DB	
+- Like Aurora is *AWS-made version* of PostgreSQL and MySQL, DocumentDB is AWS version of MongoDB	
+- NoSQL	database	
+- MongoDB is used to store, query, and index JSON data	
+- Fully managed, highly available with replication across 3 AZ	
+- Automatically scales
 
+## Amazon Neptue	
+- **Graph** database	
+- Fully managed	by AWS	
+- Very usefull in social network services
 
+## Amazon QLDB (Quantum Ledger Database)	
+- Ledger is accounting term that is book containing accounts in which the classified and summarized information of financial transactions	
+- Fully managed, serverless, High available, and can be replicated across 3 AZ	
+- Used to review history of all the changes made to our application data	
+- **Immutable**	
+- *No decentralization component*, not like Amazon Managed Blockchain	
 
+## Amazon Managed Blockchain	
+- Blockchain service without central authority	
+- Compatible with the Ethereum and Hyperledger Fabric	
 
+## AWS Glue	
+- ETL service (Extract, Transform, and Load)	
+- Prepare and transform data for analytics	
+- *Serverless*	
+- It extracts data from S3 or RDS, glue it, and load into Redshift	
 
-
-
-
-
-
-
+## DMS (Data Migration Service)	
+- Migrates on-premise data to AWS	
+- Source database remains available during migration	
+- Quick, secure, resilient, self-healing
+- Supports data migration from same -and- differenct data source type
 
