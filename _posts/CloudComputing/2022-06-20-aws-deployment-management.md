@@ -62,5 +62,19 @@ last_modified_at: 2022-06-20
 - Unified dashboard to manage software development activities in one place (CodeCommit, CodePipeline, CodeBuild, CodeDeploy, Elastic Beanstalk, EC2, etc...)	
 
 ## AWS Cloud9
+- IDE on cloud  
+- Cloud9 can be used within the web brower, can work from anywhere  
+- Supports real-time code collaboration feature 
 
+## AWS System Manager (SSM)
+- Can manage *EC2* and *On-Premises* system using SSM (Hybrid AWS service)
+- Allows operational insights about the state of infrastructure 
+- Can run commands across an entire fleet of servers  
+- Can patching automation for enhanced compliance 
+- Need to install **SSM agent** on EC2 instance or On-Premise
+- SSM Session Manager: Allows SSH on EC2/On-Premises server without port 22, SSH keys
+
+## AWS OpsWorks 
+- Perform server configuration automatically
+- AWS-version of Chef / Puppet
 
